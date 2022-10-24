@@ -29,18 +29,18 @@
           <input
             class="input-search"
             type="text"
-            placeholder="Search GitHub username..."
+            placeholder="Search GitHub username..." autocomplete="off" id="usergithub"
           />
         </div>
         <div>
-          <button class="btn-search">Search</button>
+          <button class="btn-search" id="btn-search">Search</button>
         </div>
       </div>
       <!-- Seccion que muestra la informacion -->
-      <div class="information-container">
+      <div class="information-container" id="container">
         <!-- Imagen de perfil -->
-        <div class="image-container">
-          <img width="100" src="https://avatars.githubusercontent.com/u/65357217?v=4" alt="" />
+        <div class="image-container" id="imagen">
+          <img width="100" src="https://avatars.githubusercontent.com/u/583231?v=4" alt="" />
         </div>
         <!-- Description del perfil -->
         <div class="description-container">
@@ -102,5 +102,6 @@
         </div>
       </div>
     </div>
+    <script src="/index.js"></script>
   </body>
 </html>
