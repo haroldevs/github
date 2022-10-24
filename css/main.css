@@ -25,7 +25,7 @@
   }
   
   .title {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   
   .btn-mode {
@@ -36,7 +36,7 @@
     align-items: center;
     color: #fff;
     font-weight: 600;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     letter-spacing: 5px;
   }
   
@@ -102,7 +102,7 @@
   }
   
   .user-date-container p {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   
   .user-bio-container {
@@ -134,10 +134,6 @@
     margin-bottom: 20px;
   }
 
-  .not-found{
+  .location{
     display: flex;
-  }
-  .not-found h2{
-    align-self: center;
-    margin-left: 2rem;
   }
